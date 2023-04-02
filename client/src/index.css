@@ -1,0 +1,143 @@
+/* Header/SearchBar */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Open Sans", sans-serif;
+  color: #2a2a33;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 4px;
+
+  vertical-align: middle;
+  align-items: center;
+  margin: 0;
+}
+
+.header > h1 {
+  font-size: 50px;
+  color: #f56476;
+}
+
+.inputCnt {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(204, 204, 204);
+  justify-content: left;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.inputCnt > input {
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.search {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.submitBtn {
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* google map */
+
+.map-container {
+  width: 71.9vw;
+  height: 83.5vh;
+  border: 1px solid rgb(204, 204, 204);
+  margin: 0;
+  z-index: 1;
+}
+
+.Info {
+  width: 250px;
+  margin: 0;
+}
+
+.trendingTabs {
+  display: flex;
+  align-items: center;
+}
+
+.trendingTabs > h4 {
+  margin: 0 5px 0 0;
+}
+
+.inputCnt > h4 {
+  margin: 0 0 0 10px;
+}
+
+#button {
+  font-size: 14px;
+  border: 1px solid rgb(204, 204, 204);
+  font-weight: 400;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  height: 15px;
+  width: fit-content;
+  align-items: center;
+}
+
+#button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(204, 204, 204);
+}
+
+.searchContain {
+  display: flex;
+  align-items: center;
+}
+
+.articleResult {
+  display: flex;
+  box-sizing: border-box;
+  height: fit-content;
+  width: 28.5vw;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  color: #2a2a33;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 7px 20px;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 81.3vh;
+  box-shadow: -3px 4px 6px 0 rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  height: 83.55vh;
+  width: 33vw;
+  border-top: 1px solid rgb(204, 204, 204);
+}
+
+.articleResult:hover {
+  box-shadow: 0px 2px 5px 1.4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 35vw;
+  margin-left: -280px;
+  margin-bottom: 20px;
+  margin-top: -9px;
+}
